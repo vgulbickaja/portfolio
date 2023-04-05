@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { GraduationCap } from "phosphor-react";
+import { Suitcase } from "phosphor-react";
 
 function Education() {
   return (
@@ -16,11 +17,47 @@ function Education() {
           icon={<GraduationCap size={32} />}
         >
           <h3 className="vertical-timeline-element-title">
-            Baltic Institute of Technology
+            "Baltic Institute of Technology"
           </h3>
-          <p>Junior Programmer Certificate</p>
+          <p>Junior Programmer</p>
           <hr />
           <p>2022</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<Suitcase size={32} />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            "Language Coaching"{" "}
+          </h3>
+          <p>
+            English Language lecturer:
+            <ul>
+              <li>Individual and group teaching of all levels (A1-C1) </li>
+              <li>Business English teaching</li>
+            </ul>
+          </p>
+          <hr />
+          <p>2019 – 2022</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<Suitcase size={32} />}
+        >
+          <h3 className="vertical-timeline-element-title">"Profi-Lingua" </h3>
+          <p>
+            English and Russian Language lecturer:
+            <ul>
+              <li>Individual and group teaching of all levels (A1–C1)</li>
+              <li>Business, General, Medical English teaching</li>
+            </ul>
+          </p>
+          <hr />
+          <p>2015 – 2018</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -29,7 +66,7 @@ function Education() {
           icon={<GraduationCap size={32} />}
         >
           <h3 className="vertical-timeline-element-title">
-            University of Gdańsk{" "}
+            "University of Gdańsk"{" "}
           </h3>
           <p>English Translation Studies</p>
           <hr />
@@ -42,7 +79,7 @@ function Education() {
           icon={<GraduationCap size={32} />}
         >
           <h3 className="vertical-timeline-element-title">
-            Lithuanian University of Educational Sciences
+            "Lithuanian University of Educational Sciences"
           </h3>
           <p>English Philology</p>
           <hr />
