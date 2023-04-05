@@ -13,7 +13,9 @@ function ProjectDisplay() {
       <h1>{project.name}</h1>
       <img src={project.image} />
       <p>Skills: {project.skills}</p>
-      <FontAwesomeIcon icon={faGithub} />
+      <a href="https://github.com/vgulbickaja">
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
     </div>
   );
 }

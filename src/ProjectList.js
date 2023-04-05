@@ -1,12 +1,13 @@
-import incitatus from "./Assets/incitatus.png";
+import notes from "./Assets/notes.png";
 import incitatus2 from "./Assets/incitatus2.png";
 import thicc from "./Assets/thicc.png";
 
 export const ProjectList = [
   {
-    name: "Eshop",
-    image: incitatus,
+    name: "Note App",
+    image: notes,
     skills: "React, CSS",
+    icon: <a href="https://github.com/vgulbickaja"></a>,
   },
 
   {

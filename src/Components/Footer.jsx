@@ -9,8 +9,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <FontAwesomeIcon icon={faLinkedin} />
-        <FontAwesomeIcon icon={faGithub} />
+        <a href="https://www.linkedin.com/in/violeta-gulbickaja-083b4417a/">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://github.com/vgulbickaja">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </div>
     </div>
   );
