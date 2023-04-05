@@ -19,7 +19,16 @@ function Education() {
           <h3 className="vertical-timeline-element-title">
             "Baltic Institute of Technology"
           </h3>
-          <p>Junior Programmer</p>
+          <p>
+            Junior Programmer:
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>MySQL</li>
+            </ul>
+          </p>
           <hr />
           <p>2022</p>
         </VerticalTimelineElement>

@@ -12,7 +12,7 @@ function ProjectDisplay() {
     <div className="project">
       <h1>{project.name}</h1>
       <img src={project.image} />
-      <p>Skills: {project.skills}</p>
+      <h4>{project.description}</h4>
       <a href="https://github.com/vgulbickaja">
         <FontAwesomeIcon icon={faGithub} />
       </a>

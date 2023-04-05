@@ -1,24 +1,17 @@
 import notes from "./Assets/notes.png";
-import incitatus2 from "./Assets/incitatus2.png";
-import thicc from "./Assets/thicc.png";
+import crypto from "./Assets/crypto.png";
 
 export const ProjectList = [
   {
     name: "Note App",
     image: notes,
-    skills: "React, CSS",
-    icon: <a href="https://github.com/vgulbickaja"></a>,
+    description:
+      "A React note app with localStorage. A user can create notes with a character limit, delete and save them in localStorage.",
   },
 
   {
-    name: "Eshop",
-    image: incitatus2,
-    skills: "React",
-  },
-
-  {
-    name: "Pizzeria Website",
-    image: thicc,
-    skills: "React",
+    name: "Cryptocurrency App",
+    image: crypto,
+    description: "A React app that shows the latest cryptocurrency prices.",
   },
 ];

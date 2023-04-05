@@ -15,28 +15,14 @@ function Home() {
             A front-end developer dancing on the edge where technology and
             design meet and merge.
           </p>
-          <div className="socialMedia">
+          {/* <div className="socialMedia">
             <a href="https://www.linkedin.com/in/violeta-gulbickaja-083b4417a/">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a href="https://github.com/vgulbickaja">
               <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </div>
+            </a> */}
         </div>
-      </div>
-      <div className="skills">
-        <h1>Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2>Front-End</h2>
-            <span>ReactJS, HTML, CSS</span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>Javascript</span>
-          </li>
-        </ol>
       </div>
     </div>
   );
