@@ -8,14 +8,19 @@ import "../Styles/Footer.scss";
 function Footer() {
   return (
     <div className="footer">
-      <div className="socialMedia">
+      {/* <div className="socialMedia">
         <a href="https://www.linkedin.com/in/violeta-gulbickaja-083b4417a/">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href="https://github.com/vgulbickaja">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-      </div>
+      </div> */}
+      <ul className="contact">
+        <p>Location: Vilnius, Lithuania</p>
+        <p>Email: v.gulbickaja@gmail.com</p>
+        <p>Phone: +37063603229</p>
+      </ul>
     </div>
   );
 }
